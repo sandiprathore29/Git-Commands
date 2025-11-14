@@ -60,20 +60,65 @@ git commmit -m "message"
 commit and add
 ```sh
 git commit -am "message"
-
+```
 
 ## 6 View History and logs
 show the detailed commit history 
 ```sh
 git log
 ```
+
 Shows short one-line history per commit.
 ```sh
 git log --oneline
 ```
 
+## 7. Branching
+List all the branch 
+```sh
+git branch
+```
+
+Create a new branch
+```sh
+git branch <branch_name>
+```
+
+Delete branch 
+```sh
+git branch -d <branch>
+```
+
+Deletes a branch safely (prevents deleting unmerged work)
+```sh
+git branch -D <branch>
+```
+
+## 8 Switch / Checkout 
+switch to other branch
+```sh
+git checkout <branch>
+```
+
+Create and switches to a new branch 
+```sh
+git check -b <branch_name>
+```
+
+## 9. Stashing 
+Temporarily saves changes without committing, making your workspace clean.
+```sh
+git stash
+```
 
 
+
+
+
+
+
+
+ 
 
 
 
